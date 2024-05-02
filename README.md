@@ -32,4 +32,4 @@ cargo build
 Для запуска проекта
 ``` shell
 cargo run
-'''
+```
