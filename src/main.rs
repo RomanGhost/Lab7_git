@@ -25,7 +25,7 @@ fn main() {
     let herbsAndSpices = HerbsAndSpices::new(30.0);
     recipe.add_ingredient(&herbsAndSpices);
     let meat = Meat::new(180.0);
-    recipe.add>ingredient(&meat);
+    recipe.add_ingredient(&meat);
 
     // Создаем и применяем Visitors
     let calories_visitor = CaloriesVisitor;

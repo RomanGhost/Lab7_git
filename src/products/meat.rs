@@ -22,7 +22,7 @@ impl Meat {
     }
 }
 
-impl Product for Cheese {
+impl Product for Meat {
     fn get_calories(&self) -> f64 {
         self.calories
     }
