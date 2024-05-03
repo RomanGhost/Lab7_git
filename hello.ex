@@ -1,6 +1,6 @@
 defmodule Solution do
   def hello do
-    IO.puts("Hello, World!")
+    print("Hello World!")
   end
 end
 
